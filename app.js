@@ -77,7 +77,7 @@ async function main(){
 
 // root route --------------------------------------
 app.get('/',(req,res)=>{
-    res.send("Welcome to root");
+    res.redirect("/listings");
 });
 
 // flash and session messages ----------------------
